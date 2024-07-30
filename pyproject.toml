@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "spaal2"
+version = "2.0.0"
+description = ""
+authors = ["organic-nailer <hykwyuk0125@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+numpy = "^1.26.4"
+open3d = "^0.18.0"
+matplotlib = "^3.8.3"
+opencv-python = "^4.9.0.80"
+pandas = "^2.2.1"
+simple-pcd-viewer = {git = "https://github.com/organic-nailer/simple_pcd_viewer.git", rev = "v0.2.0"}
+scipy = "^1.13.0"
+cpi-wave-creator = {git = "https://github.com/Keio-CSG/cpi_wave_creator.git"}
+polars = "^0.20.29"
+hvplot = "^0.10.0"
+pyarrow = "^16.1.0"
+scikit-learn = "^1.5.0"
+seaborn = "^0.13.2"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
